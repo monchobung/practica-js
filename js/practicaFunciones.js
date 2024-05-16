@@ -39,3 +39,32 @@ function cantidadDeLetras(palabra) {
 
 const leo = "messi";
 console.log(cantidadDeLetras(leo));
+
+// ejercicio 5
+
+function persoADolar(pesos) {
+    return pesos / 1090;  
+
+}
+
+console.log(persoADolar(50000));
+
+// ejercicio 6
+
+function precioFinal(precio) {
+    var iva = 0.21;
+    var precioConIva = precio * (1 + iva);
+    return precioConIva;
+}
+
+console.log(precioFinal(500))
+
+//ejercicio 7
+
+function division (numero) {
+    return numero/2
+}
+
+
+console.log(division(10))
+
